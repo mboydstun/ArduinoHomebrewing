@@ -1,3 +1,12 @@
+/*
+ * This file reads all attached one wire temperature sensors,
+ * and prints their GUID and current temperature in fahrenheit.
+ * 
+ * I'm using this device to monitor temperatures a 
+ * fridge that is used for homebrewing beer.
+ * 
+ */
+
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
